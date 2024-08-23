@@ -17,7 +17,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az storage blob upload-batch --account-name resumechallengetake2 --auth-mode key -d '$web' -s .
+          az storage blob sync --account-name resumechallengetake2 --container '$web' --source './'
 
     - name: logout
       run: |
