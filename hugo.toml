@@ -44,7 +44,7 @@ animate = true
     enable = true
     showOnScrollUp = true
 
-    [params.navbar.menus]No
+    [params.navbar.menus]
     disableAbout = false
     disableExperience = false
     disableEducation = false
