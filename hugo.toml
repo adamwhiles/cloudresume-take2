@@ -79,7 +79,7 @@ url = "https://github.com/adamwhiles"
   title = "About Me"
   image = "adam.png"
   content = """
-  I am life longer learner and builder that is always busy working on some side project or learning some new technology. I am nearly finished with the Bachelors degree in Computer Science at WGU. Excited to continue learning and building cools things to test out new skills.
+  I am life long learner and builder that is always busy working on some side project or learning some new technology. I am nearly finished with the Bachelors degree in Computer Science at WGU. Excited to continue learning and building cools things to test out new skills.
 
 I am currently working on a project that will allow users to vote on learning resources for popular tech certification exams, such as Microsoft Azure exams."""
     [params.about.skills]
