@@ -23,14 +23,14 @@ jobs:
     steps:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
     
         # Uses code from user peaceiris to setup a hugo docker for us to build our website with
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -41,7 +41,7 @@ jobs:
 
       # Connect to azure and upload the /public directory to our $web storage blob using code from user bacongobbler
       - name: Deploy to Azure Blob Storage
-        uses: bacongobbler/azure-blob-storage-upload@v1.2.0
+        uses: bacongobbler/azure-blob-storage-upload@main
         with:
             source_dir: public #Hugo build generates this file after build
             container_name: $web
