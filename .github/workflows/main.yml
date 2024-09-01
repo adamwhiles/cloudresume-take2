@@ -46,5 +46,4 @@ jobs:
             source_dir: public #Hugo build generates this file after build
             container_name: $web
             connection_string: ${{ secrets.BLOB_STORAGE_CONNECTION_STRING }}
-            sync: true
-            overwrite: true
+            sync: 'true'
