@@ -172,7 +172,7 @@ I am currently working on a project that will allow users to vote on learning re
 path = "blogs"
 count = 3
 title = "Recent Posts"
-enable = false
+enable = true
 disableFeaturedImage = false
 
 [params.footer.socialNetworks]
