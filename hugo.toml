@@ -100,7 +100,6 @@ I am currently working on a project that will allow users to vote on learning re
         [[params.experience.items.subs]]
         job = "Solutions Architect"
         date = "April 2023 - present"
-        content = "asdasdasd"
 
         [[params.experience.items.subs]]
         job = "Senior Deployment Engineer"
