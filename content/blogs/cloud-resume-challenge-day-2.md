@@ -1,13 +1,13 @@
 ---
-title: "Day 1 Dev Log"
+title: "Day 2 Dev Log"
 date: 2024-09-01
 draft: false
 github_link: "https://github.com/adamwhiles"
 author: "Adam"
 tags:
   - blog
-image: /images/blog/cr-challenge-day1.png
-description: "Day 1 Dev Log"
+image: /images/blog/cr-challenge-day2.png
+description: "Day 2 Dev Log"
 toc:
 ---
 
